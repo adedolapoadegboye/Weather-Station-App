@@ -1,0 +1,3 @@
+([('weather_station',
+   '/Users/Deepee/Desktop/Desktop/LEARN/LoRaWAN-Weather-Station_app/weather_station_app/dist/weather_station',
+   'EXECUTABLE')],)
