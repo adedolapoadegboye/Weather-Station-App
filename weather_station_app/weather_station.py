@@ -14,7 +14,7 @@ def get_data():
     url = "https://api.tago.io/data?variable=ambient_temperature&device=64a916f7179863000942a6c5&query=last_item&qty=1&details=false"
     payload = {}
     headers = {
-        'device-token': 'a0388c6e-118d-47fd-a2a5-0d12a3bebd7c'
+        'device-token': 'x' # Get your device token from Tago.io and replace them with the 'x'
     }
     response = requests.request("GET", url, headers=headers, data=payload)
     print(response.text)
